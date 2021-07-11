@@ -1,0 +1,64 @@
+/*Section Services*/
+
+body{
+    
+}
+
+a{
+  text-decoration:none; 
+}
+
+
+
+
+/*Section Compteur*/
+
+
+/*Section Slider Avis Client*/
+
+ 
+
+
+/*Section Formulaire*/
+
+
+
+
+/*Section Checkbox Contact*/
+
+
+
+
+/*Animztion du check*/
+
+/*@keyframes check {0% {height: 6px;width: 0;}
+    25% {height: 6px;width: 4px;}
+    50% {height: 6px;width: 8px;}
+  }*/
+/*.check span:after{
+  -moz-transform:scaleX(-1) rotate(135deg);
+  -ms-transform:scaleX(-1) rotate(135deg);
+  -webkit-transform:scaleX(-1) rotate(135deg);
+  transform:scaleX(-1) rotate(135deg);
+  
+  border-right:4px solid #fff;
+  border-top:4px solid #fff;
+  content:'';
+  display:block;
+  height:20px;
+  left:3px;
+  position:absolute;
+  top:15px;
+  width:10px}
+
+.check input:checked + span:after{
+  -webkit-animation:check .5s;
+  -moz-animation:check .5s;
+  -o-animation:check .5s;
+  animation:check .5s;
+}*/
+
+/* Show the checkmark when checked */
+
+
+/* Style the checkmark/indicator */

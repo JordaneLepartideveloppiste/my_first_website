@@ -1,0 +1,2188 @@
+/* libre-baskerville-italic - latin */
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/libre-baskerville-v7-latin-italic.eot'); 
+  src: local('Libre Baskerville Italic'), local('LibreBaskerville-Italic'),
+       url('../fonts/libre-baskerville-v7-latin-italic.eot?#iefix') format('embedded-opentype'), 
+       url('../fonts/libre-baskerville-v7-latin-italic.woff2') format('woff2'), 
+       url('../fonts/libre-baskerville-v7-latin-italic.woff') format('woff'),
+       url('../fonts/libre-baskerville-v7-latin-italic.ttf') format('truetype'),
+       url('../fonts/libre-baskerville-v7-latin-italic.svg#LibreBaskerville') format('svg');
+}
+
+/* poppins-100 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/poppins-v9-latin-100.eot');
+  src: local('Poppins Thin'), local('Poppins-Thin'),
+       url('../fonts/poppins-v9-latin-100.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v9-latin-100.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-100.woff') format('woff'),
+       url('../fonts/poppins-v9-latin-100.ttf') format('truetype'),
+       url('../fonts/poppins-v9-latin-100.svg#Poppins') format('svg');
+}
+
+/* poppins-200 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/poppins-v9-latin-200.eot');
+  src: local('Poppins ExtraLight'), local('Poppins-ExtraLight'),
+       url('../fonts/poppins-v9-latin-200.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v9-latin-200.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-200.woff') format('woff'),
+       url('../fonts/poppins-v9-latin-200.ttf') format('truetype'),
+       url('../fonts/poppins-v9-latin-200.svg#Poppins') format('svg');
+}
+
+/* poppins-regular - latin */
+/* poppins-100 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url('../fonts/poppins-v9-latin-100.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Thin'), local('Poppins-Thin'),
+       url('../fonts/poppins-v9-latin-100.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v9-latin-100.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v9-latin-100.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v9-latin-100.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v9-latin-100.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/poppins-v9-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Poppins Regular'), local('Poppins-Regular'),
+       url('../fonts/poppins-v9-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/poppins-v9-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/poppins-v9-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('../fonts/poppins-v9-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/poppins-v9-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+
+/* poppins-italic - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url('../fonts/poppins-v9-latin-italic.eot');
+  src: local('Poppins Italic'), local('Poppins-Italic'),
+       url('../fonts/poppins-v9-latin-italic.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v9-latin-italic.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-italic.woff') format('woff'),
+       url('../fonts/poppins-v9-latin-italic.ttf') format('truetype'),
+       url('../fonts/poppins-v9-latin-italic.svg#Poppins') format('svg');
+}
+
+/* poppins-500 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/poppins-v9-latin-500.eot');
+  src: local('Poppins Medium'), local('Poppins-Medium'),
+       url('../fonts/poppins-v9-latin-500.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v9-latin-500.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-500.woff') format('woff'),
+       url('../fonts/poppins-v9-latin-500.ttf') format('truetype'),
+       url('../fonts/poppins-v9-latin-500.svg#Poppins') format('svg');
+}
+
+/* poppins-600 - latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/poppins-v9-latin-600.eot');
+  src: local('Poppins SemiBold'), local('Poppins-SemiBold'),
+       url('../fonts/poppins-v9-latin-600.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/poppins-v9-latin-600.woff2') format('woff2'),
+       url('../fonts/poppins-v9-latin-600.woff') format('woff'),
+       url('../fonts/poppins-v9-latin-600.ttf') format('truetype'),
+       url('../fonts/poppins-v9-latin-600.svg#Poppins') format('svg');
+}
+
+body{
+  width: 100%;
+  background: #eee;
+}
+
+span{
+    font-size:25px;
+}
+
+.box-part{
+    color:black;
+    background:white;
+    border-radius:0;
+    padding: 0px 10px;
+    margin:0px;
+}
+.text{
+    margin:20px 0px;
+    color: black;
+    background-color: white;
+}
+
+.fa{
+     color:;
+}
+
+.container{
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.row{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*En-tête - Partie 1*/
+    /*titre*/
+.titre{
+  width: 100%;
+  background-color: black;
+}
+.logo_text{
+  margin: 0;
+  padding: 0;
+}
+#neuvieme{
+  width:80%;
+margin: auto;
+position: absolute;
+  top:24px;
+  right: 0px;
+  left: 0px;}
+#tampon{
+  width:50%;
+  margin: auto;}
+/*positionnement video*/
+video{
+ padding-top: 70px;
+ background-color: black;
+ line-height: 0px;
+ display: block;}
+/*positionnement légende à cheval*/
+figure{
+  position: relative;
+  margin-bottom: 0;}
+figcaption{
+	background-color: transparent;
+	color: black;
+	text-align: center;
+	padding-bottom: 30px;
+	margin-bottom: 0px;
+  position: absolute;
+  top:7px;
+  z-index: 2;}
+
+.fig_blanc{
+  color: white;
+}
+
+
+/* Les titres des catégories*/
+
+h2{
+	color:black;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 500;
+  	font-size: 4em;
+}
+
+h4{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 500;
+  	font-size: 2em;
+  	margin-bottom: 0;
+}
+
+.fleche{
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  
+}
+
+/*Les liens sans soulignage*/
+
+a{
+  text-decoration: none;
+}
+
+/*Section texte de présentation de l'agence - Partie 2*/
+#intro{
+  background-color: black;
+}
+
+.presentation{
+	width: 100%;
+	color: white;
+	background-color: black;
+	text-align: center;
+	margin-top: 0px;
+	padding-top: 125px;
+  padding-bottom: 60px;
+  margin: auto;
+}
+
+.slogan{
+  width: 100%;
+  margin: auto;
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+
+}
+
+.presentation p{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 400;
+  	font-size: 2.5em;
+  	line-height: 1.2em;
+}
+
+.presentation em{
+	font-family: 'Libre Baskerville';
+  	font-style: italic;
+  	font-weight: 200;
+    font-size: 1.1em;
+}
+
+.slogan span{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 200;
+  	font-size: 3em;
+    padding: 2px;
+}
+
+#fleche_pres{
+  padding-bottom: 60px;
+}
+
+/*Drapeau langue Anglais/Français */
+
+#drapeau{
+  width: 100%;
+  background-color: black;
+}
+
+#a_flag{
+  position: absolute;
+  margin-top: 4px;
+  left: 96%;
+  z-index: 9;
+}
+
+#flag{
+  width: 32px;
+  height: 20px;
+}
+
+/*Le tampon tournant*/
+#spinner{
+  position: fixed;
+  top: 30px;
+  left: 92%;
+  padding-left: 0px;
+  padding-top: 15px;
+  z-index: 2;
+  background-color: transparent;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: flip-vertical 2s infinite linear;
+          animation: flip-vertical 2s infinite linear;
+}
+
+@-webkit-keyframes flip-vertical {
+  0% {
+    -webkit-transform: rotateY(0);          
+  }
+  100% {
+    -webkit-transform: rotateY(360deg);         
+  }
+  
+}
+@keyframes flip-vertical {
+  0% {
+            transform: rotateY(0);
+  }
+  100% {
+            transform: rotateY(360deg);
+  }
+  
+}
+
+
+#nine{
+  width: 100%;
+}
+
+/* Les mosaïques - Partie 3 & 5*/
+.mosaik{
+  background-color: white;
+}
+.mosaique{
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.client{
+  min-width: 100%;
+  height: 570px;
+  background-color: white;
+}
+.mosaique:hover .nom_client{
+  opacity: 0.2;
+  }
+/*Transition : Zoom in - Opacity*/
+.mosaique figure .client{
+	justify-content: flex-start;
+	margin: 0;
+  padding: 0;
+  z-index: 1;
+  -webkit-transition: transform 0.5s ease-out;
+   -moz-transition: transform 0.5s ease-out;
+   -o-transition: transform 0.5s ease-out;
+   -ms-transition: transform 0.5s ease-out;
+   transition: transform 0.5s ease-out; 
+}
+.mosaique figure:hover .client, .mosaique figure:focus .client{
+  -webkit-transform: scale(1.20);
+   -moz-transform: scale(1.20);
+   -o-transform: scale(1.20);
+   -ms-transform: scale(1.20);
+   transform: scale(1.20);
+   opacity: 0.5;
+}
+.mosaique figure .logo_client{
+ z-index: 2;
+ opacity: 0;
+}
+.mosaique figure:hover .logo_client, .mosaique figure:focus .logo_client{
+   -webkit-transition: opacity 0.4s ease-in 0.2s;
+   -moz-transition: opacity 0.4s ease-in 0.2s;
+   -o-transition: opacity 0.4s ease-in 0.2s;
+   -ms-transition: opacity 0.4s ease-in 0.2s;
+   transition: opacity 0.4s ease-in 0.2s;
+   opacity: 1;
+}
+.mosaique figure{
+  overflow: hidden;
+}
+.mosaique figcaption{
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 0.7em;
+    padding-left: 27px;
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+
+/*Lien "Découvrir" sur hover image client*/
+
+.mosaique span{
+  color: black;
+  text-decoration: none;
+  overflow: hidden;
+  z-index: 2;
+  opacity: 0;
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.8em;
+  position: absolute;
+}
+.mosaique figure:hover span{
+   opacity: 1;
+}
+
+/* Liens "Découvrir" */
+
+#lien-1{
+  top:65%;
+  left: 46%;
+}
+
+#lien-2{
+  top: 69%;
+  left: 33%;
+}
+
+#lien-3{
+  top: 69%;
+  left: 44%;
+}
+
+#lien-4{
+  top: 69%;
+  left: 38%;
+}
+
+#lien-5{
+  top: 69%;
+  left: 38%;
+}
+
+#lien-6{
+  top: 69%;
+  left: 40%;
+}
+
+#lien-7{
+  top: 69%;
+  left: 40%;
+}
+
+#lien-8{
+  top: 69%;
+  left: 34%;
+}
+
+#lien-9{
+  top: 69%;
+  left: 43%;
+}
+
+#lien-10{
+  top:65%;
+  left: 46%;
+}
+
+/*Logos Client/Service sur image - Taille et positionnement*/
+.logo_client{
+  z-index: 10;
+  position: absolute;
+  overflow: hidden;
+}
+
+#logo-1{
+  width: 34%;
+  top: 40%;
+  left: 33%;
+}
+
+#logo-2{
+  width: 42%;
+  top: 32%;
+  left: 28%;
+}
+
+#logo-3{
+  width:44%;
+  top: 34%;
+  left: 29%;
+}
+
+#logo-4{
+  width: 30%;
+  top: 37%;
+  left: 33%;
+}
+
+#logo-5{
+  width:25%;
+  top: 35%;
+  left: 38%;
+}
+
+#logo-6{
+  width: 28%;
+  top: 32%;
+  left: 36%;
+}
+
+#logo-7{
+  width: 40%;
+  top: 40%;
+  left: 32%;
+}
+
+#logo-8{
+  width:33%;
+  top: 35%;
+  left: 33%;
+}
+
+#logo-9{
+  width: 25%;
+  top: 30%;
+  left: 38%;
+}
+
+#logo-10{
+  width: 13%;
+  top: 31%;
+  left: 45%;
+}
+
+/*Dernière div mosaique*/
+
+#last_div_mosa{
+  display: none;
+}
+
+/*Modal images client*/
+
+.close{
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  color: grey;
+  opacity: 1;
+}
+
+.close:hover{
+  color: white;
+  opacity: 1;
+
+} 
+
+#modalClient{
+
+  max-height: 100%;
+  background-color: black;
+  overflow: hidden;
+
+}
+
+.modal-content-client{
+  width: 100%;
+}
+
+.modal-title{
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2.4em;
+  color: rgb(233,229,226);
+  padding-top: 8px;
+  position: absolute;
+  top: 0px;
+  left: 5%;
+  z-index: 2;
+}
+
+.modal-dialog{
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+#dialog_carousel{
+  min-width: 100%;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+.modal-header{
+  margin-bottom: 0px;
+  padding-bottom: 37px;
+}
+#contenu_modal_client{
+  width: 100%;
+  margin: 0px;
+  background-color: black;
+  overflow: hidden;
+}
+
+    /*caroussel dans modal*/
+#carouselExampleControls{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.image2modal{
+  margin-top: 8px;
+    width: 100%;
+    height: 519px;
+    object-fit: cover;
+    object-position: 25% 65%;
+  }
+
+.carousel-caption{
+  position: absolute;
+  height: 520px;
+  left: 80%;
+  right: -1%;
+  bottom: 0px;
+  padding: 0;
+}
+
+.fond_content{
+  position: relative;
+  border: 3px black solid;
+  background-color: black;
+  height: 521px;
+
+}
+
+#milieu_caption{
+  position: absolute;
+  height: 521px;
+  right: 80%;
+  left: 0%;
+  padding: 0;
+}
+
+#milieu_fond{
+  position: relative;
+  margin-left: 0px;
+  margin-right: 12px;
+  border: 2px black solid;
+  background-color: black;
+  height: 521px;
+}
+
+#milieu_content{
+  text-align: left;
+  color: white;
+background-color: transparent;
+    padding-top: 14px;
+  padding-right: 15px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom:50%;
+  z-index: 2;
+}
+
+
+
+.content2carousel{
+  text-align: right;
+  color: white;
+background-color: transparent;
+    padding-top: 14px;
+  padding-left: 5px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  position: absolute;
+  bottom:40%;
+  z-index: 2;
+}
+
+#triangle{
+  position: relative;
+  top: 57%;
+  left: -25%;
+ height : 0;
+ width : 0;
+  border-bottom : 226px solid black;
+ border-left : 66px solid transparent;
+ 
+}
+
+#triangle2{
+ position: relative;
+  bottom: 229px;
+  left: -18%;
+ height : 0;
+ width : 0;
+ border-top : 320px solid black;
+ border-left : 48px solid transparent;
+}
+
+#triangle3{
+  position: relative;
+  top: 57%;
+  left: 100%;
+ height : 0;
+ width : 0;
+  border-bottom : 226px solid black;
+ border-right : 66px solid transparent;
+ 
+}
+
+#triangle4{
+ position: relative;
+  bottom: 44%;
+  left: 100%;
+ height : 0;
+ width : 0;
+ border-top : 320px solid black;
+ border-right : 48px solid transparent;
+}
+.caritem{
+  width: 100%;
+}
+
+.aapres{
+  position: absolute;
+  right: 18%;
+  
+}
+
+.apres{
+  position: relative;
+  top: 7%;
+}
+
+.avant{
+  position: relative;
+  top: 7%;
+}
+
+.carousel p{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  font-size: 1em;
+}
+
+.caroussel-inner{
+  margin-left: 10px;
+}
+/* Présentation des services de l'agence - Partie 4*/
+
+#services{
+	color:black;
+	background-color: rgb(233,229,226);
+	min-width: 100%;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 0px;
+}
+
+#services h3{
+	display: inline-block;
+	margin: auto;
+	margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+#services .box-part, .text{
+	background-color: rgb(233,229,226);
+}
+
+#services .bobox{
+	margin: 0;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+
+.box{
+  min-width: 100%;
+  margin: 0;
+  margin-top: 40px;
+}
+
+.box span{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 200;
+  	font-size: 1.2em;
+    line-height: 1em;
+}
+.box-part{
+	margin-bottom: 20px;
+	padding-bottom: 30px;
+}
+
+.box-part img{
+  padding-bottom: 20px;
+
+}
+
+#soci{
+  width: 60%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+#phot{
+  width: 70%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 14px;
+}
+
+#empr{
+  width: 52%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 24px;
+}
+.text{
+	margin-top: 8px;
+	margin-bottom: 0;
+	line-height: 0.9em;
+}
+
+/*Section Notre équipe - Partie 6*/
+
+#equipe{
+	width: 100%;
+	color: white;
+  	min-width: 100%;
+  	background-color: black;
+  	margin-left: 0px;
+  	margin-right: 0px;
+ 	padding-right: 0px;
+  	padding-left: 0px;
+  	padding-top: 90px;
+}
+
+#equipe h3{
+text-align: center;
+margin-bottom: 90px;
+}
+
+#dessin{
+	width: 100%;
+	height: auto;
+}
+
+    /*Compteur dynamique*/
+
+.counter {
+    margin: 25px;
+    text-align: center;
+}
+.stat {
+   margin:0px auto;
+   padding-top: 50px;
+}
+.stat-count {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size:6em;
+   color:white;
+   padding: 0;
+   display:block;
+   margin-bottom:0;
+ }
+
+.details {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+   font-size:2.2em;
+   color:white;
+   padding-bottom: 50px;
+   margin-bottom: 80px;
+}
+
+#barre{
+  margin: auto;
+  text-align: center;
+  color: transparent;
+  border:2px solid white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  padding-bottom: 80px;
+}
+
+
+/*Section Avis client en carousel - Partie 7*/
+
+#carouselExampleCaptions{
+  min-width: 100%;
+  min-height: 480px;
+  background-color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 80px;
+  padding-top: 10px;
+}
+
+#carouselExampleCaptions p{
+	font-family: 'Libre Baskerville';
+  	font-style: italic;
+  	font-weight: 400;
+	color: white;
+	font-size: 2.4em;
+	padding-left: 170px;
+	padding-right: 170px;
+	padding-bottom: 30px;
+}
+#carouselExampleCaptions h5{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 400;
+  	font-size: 1.4em;
+	color: rgba(233,229,226,0.5);
+	text-transform: uppercase;
+	margin-bottom: 70px;
+}
+#carouselExampleCaptions h3{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 500;
+	color: white;
+	margin-bottom: 50px;
+	font-size: 1.8em;
+}
+
+.avis_content{
+  width: 100%;
+  margin: auto;
+  padding: 0;
+}
+
+.carousel-indicators{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.carousel-indicators li{
+  border-radius: 100%;
+  width: 15px;
+  height: 15px;
+}
+
+/*Délais d'animation animate fadein*/
+
+.slide-delay-1 {
+    
+        -webkit-animation-delay: 0.2s;
+        -moz-animation-delay: 0.2s;
+        -o-animation-delay: 0.2s;
+        -ms-animation-delay: 0.2s;
+
+}
+
+.slide-delay-2 {
+
+        -webkit-animation-delay: 0.9s;
+        -moz-animation-delay: 0.9s;
+        -o-animation-delay: 0.9s;
+        -ms-animation-delay: 0.9s;
+     
+}
+
+.slide-delay-3 {
+
+        -webkit-animation-delay: 1.2s;
+        -moz-animation-delay: 1.2s;
+        -o-animation-delay: 1.2s;
+        -ms-animation-delay: 1.2s;
+     
+}
+
+/*Section Formulaire de contact - Partie 8*/
+.contact, .contact_form{
+  color:black;
+  background-color: #E9E5E2;
+  min-width: 100%;
+  padding-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.contact{
+  text-align: center;
+}
+
+.contact+h3{
+  padding-bottom: 50px;
+}
+
+#contact_form{
+  width: 50%;
+  margin: auto;
+}
+
+.formbox{
+  width:100%;
+}
+
+.inputBox{
+  position: relative;
+  margin-bottom: 120px;
+  padding-bottom: 60px;
+}
+.inputBox .inputText{
+  position: absolute;
+    font-size: 24px;
+    line-height: 50px;
+    transition: .5s;
+}
+.inputBox .input{
+  position: relative;
+  width: 100%;
+  height: 60px;
+  background: transparent;
+  border: none;
+    outline: none;
+    font-size: 24px;
+    border-bottom: 1px solid rgba(0,0,0,.5);
+
+}
+.focus .inputText{
+  transform: translateY(-30px);
+  font-size: 18px;
+  opacity: 1;
+  color: black;
+
+}
+
+
+
+.formu{
+	font-family: 'Poppins';
+  	font-style: normal;
+  	font-weight: 300;
+    font-size: 1.1em;
+}
+
+.mail{
+  width: 100%;
+}
+
+.textr{
+overflow: hidden;
+height: 200px;
+}
+
+.serv_form{
+  width: 120%;
+  margin-top: 12px;
+  font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.4em;
+}
+
+.form-check{
+  padding-top: 12px;
+}
+
+.check {
+    display: block;
+    position: relative;
+    padding-left: 160px;
+    margin-bottom: 12px;
+    padding-top: 4px;
+    cursor: pointer;
+    font-size: 1.3em;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* cache la checkbox par défaut */
+.check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: 14px;
+    left: 100px;
+    height: 18px;
+    width: 18px;
+    background-color: #E9E5E2 ;
+    border: 1px solid black;
+}
+
+/* indicateur de cochage */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+/* fond gris sur hover */
+.check:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+/*quand checked*/
+.check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.check .checkmark:after {
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid ;
+    border-color:black;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.bouton{
+  padding-top: 30px;
+  padding-bottom: 110px;
+}
+
+.btn{
+  color: #E9E5E2;
+  background-color: black;
+  margin: auto;
+  border-radius: 0;
+}
+
+/*Section Réseaux - Partie 9*/
+
+#footer{
+	min-width: 100%;
+	color: white;
+	background-color: black;
+	margin: 0;
+  padding-left: 10px;
+  padding-top: 50px;
+  z-index: 3;
+}
+
+#tampon{
+width: 100%;
+padding-left: 30px;
+padding-top: 30px;
+position: relative;
+bottom: 40px;
+}
+
+.fb{
+  margin-top: 80px;
+}
+
+#facebook{
+  width: 10%;
+  position: relative;
+  bottom: 8px;
+  left:15px;
+}
+
+#footer span{
+	font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  color: white;
+}
+
+#footer a{
+  text-decoration: none;
+}
+
+#txtfb{
+  padding-left: 30px; 
+  font-size: 2em; 
+}
+
+#txtmap{
+  font-size: 1.2em;  
+}
+
+#ggmap{
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.property{
+  margin-top: 130px;
+  margin-left: 30px;
+  color: white;
+  background-color: black;
+  font-family: 'Libre Baskerville';
+  font-style: italic;
+  font-weight: 400;
+  
+}
+
+.property span{ 
+  font-size: 1.2em;
+}
+
+/*Section Login*/
+
+#h_conn{
+  margin-top: 50px;
+  font-size: 2em;
+  text-align: center;
+}
+
+#conn{
+  margin: auto;
+  margin-top: 50px;
+}
+
+#btn_conn{
+  position: relative;
+  margin-top: 45px;
+  left: 36%;
+}
+
+.form-control{
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+/*****************************************************/
+/*****************************************************/
+/******************** BACKOFFICE *********************/
+/*****************************************************/
+/*****************************************************/
+
+/*Jumbotron - Acceuil Backoffice*/
+#bandeau{
+  color: black
+  background-color: rgb(233,229,226)
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+}
+#bandeau h1{
+  font-size: 4.6em;
+  margin-bottom: 35px;
+}
+#bandeau span{
+  font-size: 1.6em;
+}
+
+#bandeau p{
+  font-size: 1em;
+
+}
+
+
+/* Bootsnipp menu latéral*/
+
+.vertical-nav {
+  min-width: 17rem;
+  width: 17rem;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s;
+}
+
+.navbar{
+  align-items: flex-start;
+}
+
+.page-content-bo {
+  width: calc(100% - 17rem);
+  margin-left: 17rem;
+  transition: all 0.4s;
+}
+
+
+.bg-header{
+  background-color: rgb(233,229,226);
+}
+ 
+/* for toggle behavior */
+
+#sidebar.active {
+  margin-left: -17rem;
+}
+
+#content.active {
+  width: 100%;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  #sidebar {
+    margin-left: -17rem;
+  }
+  #sidebar.active {
+    margin-left: 0;
+  }
+  #content {
+    width: 100%;
+    margin: 0;
+  }
+  #content.active {
+    margin-left: 17rem;
+    width: calc(100% - 17rem);
+  }
+}
+.nav-item{
+  width: 100%;
+}
+.nav-link{
+  color: black;
+  font-size: 1em;
+  width: 100%;
+}
+
+.nav-link:hover{
+  color: grey;
+  background-color: rgb(233,229,226);
+}
+
+
+.tinyconfig{
+  margin: auto;
+}
+
+/*Section Upload médias*/
+
+#mediaplus span{
+  margin-top: 50px;
+  font-size: 3em;
+
+}
+
+#new_img{
+  margin: 60px;
+}
+
+#conf_new_img{
+  position: relative;
+  right: 20%;
+  top:45%;
+  margin: 20px;
+}
+
+/*Section Galerie médias*/
+
+#mediatheque{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.trash_area{
+  background-color: rgb(233,229,226);
+  border: 1px solid grey;
+}
+.gal-img{
+  border: 1px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+#galerie span{
+  font-size: 3em;
+}
+
+.les_medias{
+  margin-bottom: 4em;
+  margin-top: 5em;
+}
+
+.ident_med{
+  top: 20%;
+}
+
+/*Section Projets*/
+
+#title_projet{
+  width
+}
+
+#custom_project{
+  margin-bottom: 45px;
+}
+
+.projet span{
+  font-size: 1.2em;
+}
+
+#client{
+  padding-left: 15px;
+}
+
+#form_proj{
+  margin:0;
+}
+
+.proj_cli{
+  margin:0;
+  margin-bottom: 16px;
+  margin-top: 30px;
+}
+
+em{
+  font-size: 0.8em;
+  font-style: italic;
+}
+.form-group{
+  padding: 0;
+}
+.titup{
+  margin-left: 15px;
+  margin-bottom: 30px;
+  padding-right: 0;
+}
+
+.posit{
+  height: 95px;
+}
+
+#deuxieme{
+  padding-left: 0px;
+}
+
+#un{
+  width: 109%;
+ 
+  border-radius: 8px 0 0 0px;
+}
+#deu{
+  width:  134%;
+ 
+}
+#trois{
+  width: 116%;
+
+}
+#quatre{
+  width: 122%;
+  margin-bottom: 60px;
+  border-radius: 0 0 0 8px;
+}
+#cinq{
+  width: 123%;
+  margin-bottom: 60px;
+}
+#six{
+  width: 111%;
+
+}
+#sept{
+  width: 110%;
+  border-radius: 0 8px 0 0;
+}
+#huit{
+  width: 121%;
+
+}
+#neuf{
+  width: 107%;
+
+}
+#dix{
+  width: 105%;
+  margin-bottom: 60px;
+  border-radius: 0 0 8px 0;    
+}
+
+.radio_po{
+  padding-left: 0px;
+}
+
+.txt{
+  margin-left: 15px;
+  margin-bottom: 45px;
+}
+
+.txta{
+  margin-bottom: 30px;
+}
+
+.tox{
+  width: 58%;
+}
+
+.choice{
+  position: relative;
+  bottom: 16px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/*Modification Projet */
+.input_image{
+  width: 30%;
+}
+
+.modif_img{
+  width:46px;
+  height:38px;
+  position:relative;
+  top: 4px;
+  margin-left:25px;
+  margin-right:5px;
+}
+
+
+.choix{
+  position: relative;
+  bottom: 6px;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.modif_id_img{
+  text-align: center;
+  width:25%;
+  height: 40px;
+  position:relative; 
+  top: 4px;
+  margin-left:40px;
+  margin-right:5px;
+  padding-top:6px;
+  padding-bottom:5px;
+}
+
+.img_select{
+  padding: 0;
+  max-height: 42px;
+  position: relative;
+  bottom: 8px;
+}
+
+#modal-body-img{
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
+}
+
+#activation{
+  padding-left: 30px;
+  margin-top: 30px;
+}
+
+.activate{
+  margin-top: 25px;
+
+}
+
+#act{
+  width: 100px;
+  border-radius: 8px 0 0 8px;
+}
+
+#desact{
+  width: 100px;
+  border-radius: 0 8px 8px 0;
+}
+
+#gestion_proj{
+  margin-bottom: 26px;
+}
+
+#nvprj{
+   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#modprj{
+  border-radius: 6px;
+}
+
+#ajoprj{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+#table_modifProj{
+  border: 2px solid grey;
+}
+
+#thead_modifProj{
+  border: 2px solid grey;
+   margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#tr_modifProj:first-child{
+ 
+}
+
+/*Gestion Avis-client*/
+.avis_client{
+  margin-top: 65px;
+}
+
+.avis_client span{
+  font-size: 3em;
+  margin-bottom: 40px;
+}
+
+.ajout_avis span{
+  font-size: 3em;
+}
+.formul {
+  margin-top: 40px;
+}
+
+.table_avis{
+  margin-top: 40px;
+}
+.table_avis .td_text{
+  position: relative;
+  top: 6px;
+}
+
+#txt2{
+  margin-bottom: 0px;
+}
+
+#txta2{
+  margin-bottom: 0px;
+}
+
+/*bouton trash & pencil*/
+.icone{
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 6px;
+  width: 3em;
+  max-height: 36px;
+  margin-top: 17px;
+}
+
+.icone:hover{
+  background-color: rgb(218, 224, 229);
+  border-color: rgb(205, 211, 216);
+}
+/*icone dans bouton*/
+.modif_icon{
+  position: relative;
+  bottom: 2px;
+  right: 2px;
+  width: 110%;
+}
+
+.switch_avis{
+  margin-top: 16px;
+}
+
+
+/*****************************************************/
+/*****************************************************/
+/************* RESPONSIVE SMARTPHONE *****************/
+/*****************************************************/
+/*****************************************************/
+
+@media screen and (max-width:575px){
+  h3{
+    font-size: 2.5em;
+    margin-bottom: 0px;
+  }
+
+  figcaption{
+    top: 27px;
+    z-index: 2;
+  }
+
+  figcaption h4{
+    font-size: 1.2em;
+    position: relative;
+    top: -26px;
+    left: -10px;
+  }
+
+  video{
+    position: relative;
+    bottom: 20px;
+    z-index: 1;
+  }
+
+  #drapeau{
+  width: 100%;
+  background-color: black;
+  }
+
+  #a_flag{
+  position: absolute;
+  margin-top: 4px;
+  left: 94%;
+  z-index: 9;
+  }
+
+  #flag{
+  width: 22px;
+  height: 14px;
+  }
+
+  /*Neuf tournant*/
+
+  #spinner{
+  position: fixed;
+  top: 20px;
+  left: 91%;
+  padding-left: 0px;
+  padding-top: 15px;
+  z-index: 2;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  }
+
+  #fleche_pres{
+    position: relative;
+   
+  }
+
+  .presentation{  
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  }
+
+  .slogan{
+    padding-top: 0px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+  }
+
+  .slogan span{
+    padding: 5px;
+  }
+
+  .presentation p{
+    margin: auto;
+    font-size: 1.2em;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .presentation em{
+    font-size: 1em;
+  }
+
+  .slogan{
+     margin-top: 30px;
+  }
+
+  .slogan span{
+    font-size: 1.4em;
+  }
+
+  #comprendre{
+    text-align: center;
+    position: relative;
+    
+  }
+
+  #creer{
+    text-align: center;
+    position: relative;
+    left:-12px;
+  }
+
+  #diffuser{
+    text-align: center;
+    position: relative;
+    left:-22px;
+  }
+
+  
+
+  /* Section Services*/
+ .box-part img{
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    width: 80%;
+  }
+
+  .box{
+    margin-top: 0px;
+  }
+
+  #sevices .bobox{
+  padding-top: 16px;
+  padding-bottom: 20px;
+  }
+
+  .bobox h3{
+  margin-top: 0px;  
+  padding-top: 0px;
+  margin-bottom: 0px;
+  }
+
+  .box-part{
+    width: 60%;
+    margin: auto;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  }
+
+  
+
+  /*Mosaïque transformé en img les unes derrières les autres*/
+
+  .mosaique{
+    display: block;
+    background-color: black;
+  }
+  /* Pas de hover sur smartphone = transforme bouton "découvrir"*/
+  .mosaique span{
+    display: none;
+  }
+  .mosaique figure:hover .logo_client{
+    opacity: 0;
+  }
+
+  .mosaique figure .client{
+   -webkit-transition: none;
+   -moz-transition: none;
+   -o-transition: none;
+   -ms-transition: none;
+   transition: none;
+  }
+
+  .mosaique figure:hover .client{
+   -webkit-transform: none;
+   -moz-transform: none;
+   -o-transform: none;
+   -ms-transform: none;
+   transform: none;
+   opacity: 1;
+  }
+
+  .mosaique figure:hover .logo_client{
+     -webkit-transition: none;
+     -moz-transition: none;
+     -o-transition: none;
+     -ms-transition: none;
+     transition: none;
+  }
+
+  .mosaique figure{
+    overflow: hidden;
+  }
+/*Tailles et positionnement des images sur smartphone*/
+
+  .client{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+
+  #image-1{  
+    object-position: 45% 0px;
+  }
+  #image-2{
+    object-position: 0px 25%;
+  }
+  #image-3{
+    object-position: 45% 0px;
+  }
+  #image-4{
+    object-position: 30% 0px ;
+  }
+
+  #image-5{
+    object-position: 0px 20%;
+  }
+
+  #image-6{
+    object-position: 0px 25%;
+  }
+
+  #image-7{
+    object-position: 0px 25%;
+  }
+
+  #image-8{
+    object-position: 0px 25%;
+  }
+
+  #image-9{
+    object-position: 45% 0px;
+  }
+
+  #image-10{
+    object-position: 45% 0px;
+  }
+
+/*Positionnement du lien découvrir*/
+
+  #lien-1{
+  top:74%;
+  left:25%;
+  }
+
+  #lien-2{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-3{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-4{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-5{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-6{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-7{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-8{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-9{
+    top: 74%;
+    left: 25%;
+  }
+
+  #lien-10{
+  top:74%;
+  left:25%;
+  }
+
+/*Section équipe*/
+
+  #equipe{
+    padding-top: 50px;
+  }
+
+  #equipe h3{
+    margin-bottom: 28px;
+  }
+
+/*Compteur*/
+
+.counter {
+    margin: 0;
+    text-align: center;
+}
+.stat {
+   margin:0px auto;
+   padding-top: 10px;
+}
+.stat-count {
+
+  font-size:3em;
+ }
+
+  #creation{
+    margin-top: 20px;
+  }
+
+  .details {
+     font-size:1.1em;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+  }
+
+  #barre{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 46px;
+  }
+
+/*Section Avis client*/
+
+  #carouselExampleCaptions{
+    min-width: 100%;
+    min-height: 240px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+
+  #carouselExampleCaptions p{
+    font-size: 1.2em;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 300px;
+    height: 100px;
+    font-size: 1.6em;
+    text-align: center;
+ 
+
+  }
+  #carouselExampleCaptions h5{
+    font-size: 1.2em;
+    padding-top: 35px;
+    margin-bottom: 70px;
+    position: relative;
+    top: 70px;
+  }
+
+  .carousel-item{
+    text-align: center;
+  }
+
+  #avis{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    margin: auto;
+  }
+  
+  .indicators{
+    margin-top: 15px;
+    padding-top: 15px;
+    margin-bottom: 40px;
+  }
+
+  /*Section Formulaire de contact*/
+
+  .contact, .contact_form{
+    min-width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #fleche_contact{
+    padding-top: 0px;
+  }
+
+  .contact{
+    text-align: center;
+  }
+
+  .contact h3{
+    padding-bottom: 10px;
+  }
+
+  #contact_form{
+    width: 75%;
+  }
+
+  .formbox{
+    width:100%;
+  }
+
+  .formu{
+      font-size: 1em;
+  }
+
+
+
+  .bouton{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .btn{
+    border-radius: 10px;
+  }
+
+  /*Section Réseaux - Footer*/
+
+  #footer{
+  background-color: black;
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 50px;
+  }
+
+  #tampon{
+  width: 92%;
+  padding-left: 26px;
+  padding-top: 10px;
+  margin-top: 30px;
+  
+  }
+
+  .fb{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+    
+  }
+
+  #facebook{
+    width: 10%;
+    position: relative;
+    bottom: 8px;
+    left:15px;
+  }
+
+  #txtfb{
+    padding-left: 20px; 
+    font-size: 1.4em; 
+  }
+
+  #map{
+    margin-bottom: 140px;
+  }
+
+  #txtmap{
+    padding-left: 50px; 
+    position: relative;
+    bottom: 220px; 
+  }
+
+  #ggmap{
+    width: 60%;
+    height: auto;
+    margin-top: 6px;
+    margin-left: 60px;
+    position: relative;
+    bottom: 200px;
+  }
+
+  .property{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    position: relative;
+  
+  }
+
+  .property span{ 
+    font-size: 0.8em;
+  }
+
+
+}

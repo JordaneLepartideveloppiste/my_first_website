@@ -1,0 +1,527 @@
+    AJAX
+
+if($_GET['function'] == "modal-projet"){
+            $sql = "SELECT * from projects";
+            $result = $connexion->select($sql);
+            $modal="";
+            foreach ($result as $proj) {
+            
+            $modal.="<div class='modal fade' id='modalClient' tabindex='-1' role='dialog' aria-labelledby='modal_client' aria-hidden='true'>";
+            $modal.="<div class='modal-dialog modal-dialog-centered mw-100 w-100' role='document'>";
+            $modal.="<div class='modal-content container'>";
+            $modal.="<div class='modal-header'>";
+            $modal.="<h5 class='modal-title' id='exampleModalLongTitle'>$proj->title_proj</h5>";
+            $modal.="<button type='button' class='close' data-dismiss='modal' aria-label='Close'>";
+            $modal.="<img class='cross_close' src='<?php echo LOCAL_URL; ?>/assets/img/icons/croix.svg'>";
+            $modal.="</button>";
+            $modal.="</div>";
+                $sql = "SELECT id_proj, id_media_bg,url_media FROM projects AS p INNER JOIN medias AS m WHERE p.id_media_bg = m.id_media";
+                $result = $connexion->select($sql);
+                foreach ($result as $media) {   
+            $modal.="<div class='modal-body'>";
+            $modal.="<div id='carousel_modal' class='carousel slide' data-ride='carousel'>";
+            $modal.="<div class='carousel-inner text-center'>";
+            $modal.="<div class='carousel-item active'>";
+            $modal.="<img src='<?php echo LOCAL_URL; ?>/assets/img/capture_a.png' width='80%'>"; //$media->
+            $modal.="<p class='animated fadeInLeftBig slide-delay-2 text-right'>$proj->content_slide_1</p>";
+            $modal.="</div>";
+            $modal.="<div class='carousel-item'>";
+            $modal.="<img src='<?php echo LOCAL_URL; ?>/assets/img/capture_b.png' width='80%'>";
+            $modal.="<p class='animated fadeInLeftBig slide-delay-2 text-right'>$proj->content_slide_2</p>";
+            $modal.="</div>";
+            $modal.="<div class='carousel-item'>";
+            $modal.="<img src='<?php echo LOCAL_URL; ?>/assets/img/capture_a.png' width='80%'>";
+            $modal.="<p class='animated fadeInLeftBig slide-delay-2 text-right'>$proj->content_slide_3</p>";
+            $modal.="</div>";
+            $modal.="</div>";
+                  }
+            $modal.="<a class='carousel-control-prev prev' href='#carousel_modal_cc' role='button' data-slide='prev'>";
+            $modal.="<img src='<?php echo LOCAL_URL; ?>/assets/img/icons/left-chevron.png'>";
+            $modal.="</a>";
+            $modal.="<a class='carousel-control-next next' href='#carousel_modal_cc' role='button' data-slide='next'>";
+            $modal.="<img src='<?php echo LOCAL_URL; ?>/assets/img/icons/right-chevron.png'>";
+            $modal.="</a>";
+            $modal.="</div>";
+            }
+            $modal.="</div>";
+            $modal.="</div>";
+            $modal.="</div>";
+            $modal.="</div>";
+            $modal.="</div>";
+            $modal.="</div>";
+        
+
+        echo $modal;
+
+    }
+
+    JAVASCRIPT
+
+$('.modals').click(function(){
+    $('#modalClient').modal('show');
+    $('#modal-body-client').empty();
+    var num= $(this).attr('anchor-num');
+    $.ajax({
+    type: 'GET',
+            url: 'http://localhost/neuvieme/ajax.php',
+            data : {
+                function  : 'modal-projet'
+            },
+            beforeSend : function(){
+                console.log("Avant");
+            },
+            complete : function(){
+                console.log("Complete");
+            },
+            success : function(data){
+                $('#modal-body-client').append(modal);
+            },
+            error : function(){
+                console.log("Erreur");
+            }
+        })
+    })
+
+
+
+/*****************************************************/
+/*****************************************************/
+/************* RESPONSIVE SMARTLAND ****************/
+/*****************************************************/
+/*****************************************************/
+
+@media screen and (min-width:576px) and (max-width: 767px){
+  h3{
+    font-size: 3.2em;
+    margin-bottom: 0px;
+  }
+
+
+  #fleche_pres{
+    position: relative;
+    left: 0px;
+    padding-top: 20px;
+  }
+
+  .presentation{
+  margin-top: 0px;
+  padding-top: 50px;
+  padding-bottom: 70px;
+  }
+
+  .presentation p{
+    font-size: 1.6em;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    position: relative;
+    left:-94px;
+    margin-bottom: 10px;
+  }
+
+  .presentation em{
+    font-size: 1em;
+  }
+
+  .presentation span{
+    font-size: 1.8em;
+    margin-top: 10px;
+    
+    
+     }
+
+  #comprendre{
+    position: relative;
+    left:-28%;
+  }
+
+  #creer{
+    position: relative;
+    left: 0%;
+  }
+
+  #diffuser{
+    position: relative;
+    left: 0%;
+  }
+
+  /*Neuf tournant*/
+  .spinner{
+    left: 84%;
+    top: 6px;
+    width: 80px;
+    height: 80px;
+  }
+
+  /*Mosaïque transformé en img les unes derrières les autres*/
+  .mosaique{
+    
+  }
+  /* Pas de hover sur smartphone = transforme bouton "découvrir"*/
+  .mosaique span{
+    padding-left: 8px;
+    padding-right: 8px;
+    color: rgb(233,229,226);
+    background-color: rgba(0,0,0,0.6);
+    border: 1px solid rgb(233,229,226);
+    border-radius: 6px;
+    opacity: 1;
+    font-size: 1em;
+  }
+  .mosaique figure:hover .logo_client{
+    opacity: 0;
+  }
+
+  .mosaique figure .client{
+   -webkit-transition: none;
+   -moz-transition: none;
+   -o-transition: none;
+   -ms-transition: none;
+   transition: none;
+  }
+
+  .mosaique figure:hover .client{
+   -webkit-transform: none;
+   -moz-transform: none;
+   -o-transform: none;
+   -ms-transform: none;
+   transform: none;
+   opacity: 1;
+  }
+
+  .mosaique figure:hover .logo_client{
+     -webkit-transition: none;
+     -moz-transition: none;
+     -o-transition: none;
+     -ms-transition: none;
+     transition: none;
+  }
+
+  .mosaique figure{
+    overflow: hidden;
+  }
+/*Tailles et positionnement des images sur smartphone*/
+
+  #cac{
+    width: 120%;
+    height: auto;
+  }
+
+  #coke{
+    width: 100%;
+    height: auto;
+  }
+
+  #sgtd{
+    width: 100%;
+    height: auto;
+ 
+  }
+
+  #brico{
+    width: 100%;
+    height: auto;
+
+  }
+
+  #djibt{
+    width: 100%;
+    height: auto;
+  }
+
+  #coca{
+    width: 100%;
+   height: auto;
+  }
+
+  #wfp{
+    width: 100%;
+      height: auto;
+  }
+
+  #djibtel{
+    width: 100%;
+    height: auto;
+  }
+
+  #rubis{
+    width: 100%;
+    height: auto;
+  }
+
+/*Positionnement du lien découvrir*/
+
+  #acac{
+  top: 74%;
+  left: 52%;
+  }
+
+  #acc{
+    top: 74%;
+    left: 26%;
+  }
+
+  #asgtd{
+    top: 74%;
+    left: 50%;
+  }
+
+  #abd{
+    top: 74%;
+    left: 48%;
+  }
+
+  #adt{
+    top: 74%;
+    left: 38%;
+  }
+
+  #acc2{
+    top: 74%;
+    left: 40%;
+  }
+
+  #awfp{
+    top: 74%;
+    left: 50%;
+  }
+
+  #adt2{
+    top: 74%;
+    left: 25%;
+  }
+
+  #aru{
+    top: 74%;
+    left: 56%;
+  }
+
+  /*Section Services*/
+  #soci{
+  width: 40%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  }
+
+  #phot{
+    width: 50%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 14px;
+  }
+
+  #empr{
+    width: 36%;
+    height: auto;
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+/*Section équipe*/
+
+  #equipe{
+    padding-top: 50px;
+  }
+
+  #equipe h3{
+    margin-bottom: 28px;
+  }
+
+  .bobox{
+  padding-top: 26px;
+  padding-bottom: 30px;
+  }
+
+  .box-part{
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  }
+
+  .box-part img{
+    width: 80%;
+  }
+
+/*Compteur*/
+
+  .counter {
+      margin: 0;
+      text-align: center;
+  }
+  .stat {
+     margin:0px auto;
+     padding-top: 10px;
+  }
+  .stat-count {
+
+    font-size:3em;
+   }
+
+  #creation{
+    margin-top: 20px;
+  }
+
+  .details {
+     font-size:1.1em;
+     padding-bottom: 10px;
+     margin-bottom: 10px;
+  }
+
+  #barre{
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 46px;
+  }
+
+/*Section Avis client*/
+
+  #carouselExampleCaptions{
+    min-width: 100%;
+    min-height: 240px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+
+  #carouselExampleCaptions p{
+    font-size: 1.2em;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    width: 290px;
+    height: 120px;
+    text-align: center;
+    position: relative;
+    left:-12%;
+
+  }
+  #carouselExampleCaptions h5{
+    font-size: 1.2em;
+    margin-bottom: 70px;
+    text-align: center;
+  }
+  #avis{
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+  }
+  
+  .carousel-indicators{
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+
+  /*Section Formulaire de contact*/
+
+  .contact, .contact_form{
+    min-width: 100%;
+    padding-top: 40px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #fleche_contact{
+    padding-top: 0px;
+  }
+
+  .contact{
+    text-align: center;
+  }
+
+  .contact h3{
+    padding-bottom: 10px;
+  }
+
+  #contact_form{
+    width: 75%;
+  }
+
+  .formbox{
+    width:100%;
+  }
+
+  .formu{
+      font-size: 1em;
+  }
+
+  .bouton{
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+  .btn{
+    border-radius: 6px;
+  }
+
+  /*Section Réseaux - Footer*/
+
+  #footer{
+  margin: 0;
+  padding-left: 10px;
+  padding-top: 54px;
+  }
+
+  #tampon{
+  width: 88%;
+  padding-left: 50px;
+  padding-top: 10px;
+  position: relative;
+  top: 330px;
+  }
+
+  .fb{
+    margin-top: 0px;
+    padding-left: 10px;
+    position: relative;
+    bottom: 345px;
+  }
+
+  #facebook{
+    width: 10%;
+    position: relative;
+    bottom: 8px;
+    left:15px;
+  }
+
+  #txtfb{
+    padding-left: 20px; 
+    font-size: 1.4em; 
+  }
+
+  #map{
+    margin-bottom: 140px;
+  }
+
+  #txtmap{
+    padding-left: 30%; 
+    position: relative;
+    bottom: 360px; 
+  }
+
+  #ggmap{
+    width: 70%;
+    height: auto;
+    margin-top: 6px;
+    margin-left: 16%;
+    position: relative;
+    bottom: 340px;
+  }
+
+  .property{
+    margin-top: 30px;
+    margin-left: 18px;
+    position: relative;
+    top: 700%;
+  }
+
+  .property span{ 
+    font-size: 1em;
+  }
+}
